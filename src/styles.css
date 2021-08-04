@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.container{
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-origin: center;
+  background-position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  height: 15rem;
+  width: 16rem;
+  background-size:20rem;
+  background-image: url("./pirate.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pirate{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: red;
+  width: 15rem;
+  margin: auto;
+  padding-top: 85%;
+}
+
+.input-txt,.output-txt{
+  width: 30%;
+  height: 150px;
+  border: none;
+  font-size: 20px;
+  font-weight:500;
+  background: rgb(181, 181, 204);
+  color: black;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 1rem;
+}
+::placeholder { 
+  color: black;
+}
+
+/* style for button */ 
+.translate-but{
+  width: fit-content;
+  background-color:transparent;
+  margin: auto;
+  padding:5px;
+  border: 3px solid rgb(39, 93, 192);
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: rgb(39, 93, 192);
+  cursor: pointer;
+}
+.translate-but:hover{
+  transform: scale(1.1);
+  background-color:red;
+  color: white;
+  border-color: white;
+}  
+
+.elements{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 80%;
+}
+
+footer {
+  background-color: rgb(255, 153, 102, 0.5);
+  color: white;
+  border: 1px transparent;
+  border-radius: 0.5rem;
+}
+
+.footerLink a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  color: black;
+}
+
+footer li {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+}
+
+.creator{
+  display: block;
+  font-family: "Otomanopee One", sans-serif;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+
+.legacyText {
+  font-size: 1.2rem;
+  color: #b71540;
+  text-align: center;
+}
+.legacyText a {
+  font-size: 1rem;
+}
